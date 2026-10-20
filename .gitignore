@@ -1,0 +1,24 @@
+# Ignore the complete image dataset
+e-commerce/
+
+# Ignore generated embeddings
+embeddings.npy
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE settings
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
